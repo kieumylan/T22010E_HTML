@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+  <script>
+    function onKeyup(){
+      var name =document.getElementById("nameid").value;
+      //name.value=name.toUpperCase();
+      console.log("name"+name);
+    }
+    function mouse(){
+      document.getElementById("nameid").value="T2210E";
+      document.getElementById("nameid").style.color="blue";
+    }
+    function Blur(){
+      document.getElementById("nameid").value="T2210E";
+      document.getElementById("nameid").style.color="red";
+      console.log("Test function");
+    }
+  </script>
+</head>
+<body>
+<!--<script>-->
+<!--  //document.writeln("Cong hoa xa hoi")-->
+<!--  //alert("Welcome to T2210E1");-->
+<!--  //confirm("Ban co muon hoc lai khong?");-->
+<!--  // var number = parseInt("10");-->
+<!--  // console.log("Number" + number);-->
+<!--  // var name= prompt("Vui long nhap ten cua ban:");-->
+<!--  // console.log("Ten cua ban la:" + name);-->
+<!--  -->
+<!--</script>-->
+<!--<input type ="text" id = "nameid" onkeyup="onKeyup()" onmouseover="mouse()" name ="name">-->
+<input type ="text" id = "nameid" onblur="Blur()" onmouseover="mouse()"name ="name">
+
+</body>
+</html>

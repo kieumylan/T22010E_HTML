@@ -1,0 +1,19 @@
+.class1, .class2{
+    color: red;
+    font-size: 36px;
+}
+#id1{
+    color: blue;
+}
+p{
+    color: blueviolet;
+}
+p:hover{
+    color: black;
+}
+p:first-letter{
+    color: red;
+}
+p:first-line{
+    color: black;
+}
